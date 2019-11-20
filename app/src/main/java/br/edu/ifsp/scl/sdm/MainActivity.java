@@ -48,6 +48,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         numDadosSpinner = findViewById(R.id.numDadosSpinner);
         resultado2ImageView = findViewById(R.id.resultado2ImageView);
+
+        // Recuperando referência para o numFacesEditText do arquivo de layout
+        numFacesEditText = findViewById(R.id.numFacesEditText);
+
     }
 
     public void onClick(View view){
