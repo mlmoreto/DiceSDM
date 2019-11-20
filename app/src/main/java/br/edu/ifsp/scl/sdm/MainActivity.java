@@ -35,6 +35,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // Recuperando referência para o jogarDadoButton do arquivo de layout
         jogarDadoButton = findViewById(R.id.jogarDadoButton);
         jogarDadoButton.setOnClickListener(this);
+
+        // Recuperando referência para o resultadoImageView do arquivo de layout
+        resultadoImageView = findViewById(R.id.resultadoImageView);
+
     }
 
     public void onClick(View view) {
