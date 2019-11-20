@@ -4,6 +4,7 @@
     <string name="txtBtnJogar">Jogar</string>
     <string name="txtNaoLancado">Ainda não foi lançado</string>
     <string name="txtFaceSorteada">Face(s) sorteada(s):</string>
+    <string name="txtSelecioneNroDados">Selecione o número de dados</string>
     <string-array name="numero_dados">
         <item>1</item>
         <item>2</item>
