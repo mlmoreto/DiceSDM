@@ -47,4 +47,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             resultadoTextView.setText(getString(R.string.txtFaceSorteada) + resultado);
         }
     }
+
+    private void setImageResource(ImageView iv, int face) {
+        switch (face) {
+            case 1: iv.setImageResource(R.drawable.dice_1);
+                break;
+            case 2: iv.setImageResource(R.drawable.dice_2);
+                break;
+            case 3: iv.setImageResource(R.drawable.dice_3);
+                break;
+            case 4: iv.setImageResource(R.drawable.dice_4);
+                break;
+            case 5: iv.setImageResource(R.drawable.dice_5);
+                break;
+            case 6: iv.setImageResource(R.drawable.dice_6);
+                break;
+        }
+    }
 }
