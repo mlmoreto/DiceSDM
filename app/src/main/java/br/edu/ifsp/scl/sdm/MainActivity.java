@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private ImageView resultadoImageView;
 
     private Spinner numDadosSpinner;
-    private ImageView resultado2ImageView
+    private ImageView resultado2ImageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +43,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // Recuperando referência para o resultadoImageView do arquivo de layout
         resultadoImageView = findViewById(R.id.resultadoImageView);
 
+        numDadosSpinner = findViewById(R.id.numDadosSpinner);
+        resultado2ImageView = findViewById(R.id.resultado2ImageView);
     }
 
     public void onClick(View view) {
