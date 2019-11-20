@@ -3,4 +3,5 @@
     <string name="txtJogar">Clique no botão abaixo para jogar o dado</string>
     <string name="txtBtnJogar">Jogar</string>
     <string name="txtNaoLancado">Ainda não foi lançado</string>
+    <string name="txtFaceSorteada">Face(s) sorteada(s):</string>
 </resources>
